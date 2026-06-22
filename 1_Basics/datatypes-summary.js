@@ -29,3 +29,14 @@ const myFxn = function (){
     console.log("HEllo Zindagi")
 }
 console.log(typeof myFxn);
+
+//++++++++++++++++++++++++++++++++++++++++++++
+
+//types of memories Stack memory and heap memory
+// Stack (Primitive) , Heap (Non Primitive)
+
+let myYtName = "hjdjkbj"
+let anotherName = myYtName 
+anotherName = "jahbdijh"
+console.log(myYtName);
+console.log(anotherName);
